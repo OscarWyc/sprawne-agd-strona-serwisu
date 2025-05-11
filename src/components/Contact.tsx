@@ -33,7 +33,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-blue-600 font-medium text-lg mt-1">kontakt@sprawneagd.pl</p>
+                    <p className="text-blue-600 font-medium text-lg mt-1">sprawne.agd@gmail.com</p>
                     <p className="text-gray-500 text-sm mt-1">Odpowiadamy w ciągu 24 godzin</p>
                   </div>
                 </div>
@@ -44,8 +44,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Adres</p>
-                    <p className="text-gray-700 mt-1">ul. Serwisowa 42</p>
-                    <p className="text-gray-700">00-001 Warszawa</p>
+                    <p className="text-gray-700 mt-1">ul. Dębowa Łąka 118</p>
+                    <p className="text-gray-700">87-207 Dębowa Łąka</p>
                   </div>
                 </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                     <p className="font-medium text-gray-900">Godziny pracy</p>
                     <div className="grid grid-cols-2 gap-x-8 gap-y-2 mt-2">
                       <p className="text-gray-700">Poniedziałek - Piątek:</p>
-                      <p className="text-gray-700">8:00 - 18:00</p>
+                      <p className="text-gray-700">8:00 - 17:00</p>
                       <p className="text-gray-700">Sobota:</p>
                       <p className="text-gray-700">9:00 - 14:00</p>
                       <p className="text-gray-700">Niedziela:</p>
