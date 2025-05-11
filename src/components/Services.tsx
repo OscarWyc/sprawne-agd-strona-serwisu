@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { WashingMachine, Refrigerator, Microwave, Oven } from "lucide-react";
+import { WashingMachine, Refrigerator, Microwave } from "lucide-react";
 
 type ServiceCardProps = {
   title: string;
@@ -38,7 +38,7 @@ const Services = () => {
     {
       title: "Naprawa kuchenek i piekarników",
       description: "Naprawa kuchenek gazowych, elektrycznych i piekarników. Wymiana grzałek, czujników temperatury i modułów sterujących.",
-      icon: Oven
+      icon: Microwave
     },
     {
       title: "Naprawa mikrofalówek",
