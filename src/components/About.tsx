@@ -1,17 +1,10 @@
-
 import React from "react";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-white">
+  return <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="md:w-1/2">
-            <img 
-              src="https://images.unsplash.com/photo-1595079676601-f1adf5be5dee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-              alt="Zespół serwisowy Sprawne AGD"
-              className="rounded-xl shadow-lg w-full object-cover"
-            />
+            <img src="https://images.unsplash.com/photo-1595079676601-f1adf5be5dee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Zespół serwisowy Sprawne AGD" className="rounded-xl shadow-lg w-full object-cover" />
           </div>
           <div className="md:w-1/2">
             <div className="mb-6">
@@ -48,8 +41,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
