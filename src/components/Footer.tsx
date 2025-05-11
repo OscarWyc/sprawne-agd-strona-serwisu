@@ -1,10 +1,7 @@
-
 import React from "react";
 import { Facebook, Instagram } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white py-12">
+  return <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1">
@@ -13,22 +10,10 @@ const Footer = () => {
               Profesjonalne naprawy sprzętu AGD z gwarancją satysfakcji.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors"
-                aria-label="Facebook"
-              >
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors"
-                aria-label="Instagram"
-              >
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
             </div>
@@ -59,10 +44,10 @@ const Footer = () => {
           <div className="col-span-1">
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
             <address className="not-italic text-gray-400">
-              <p className="mb-2">ul. Serwisowa 42</p>
-              <p className="mb-2">00-001 Warszawa</p>
-              <p className="mb-2">Tel: +48 123 456 789</p>
-              <p className="mb-2">Email: kontakt@sprawneagd.pl</p>
+              <p className="mb-2">NIP: 878-180-25-42</p>
+              <p className="mb-2">87-207 Dębowa Łąka 118</p>
+              <p className="mb-2">Tel: +48 784 318 143</p>
+              <p className="mb-2">Email: sprawne.agd@gmaI.com</p>
             </address>
           </div>
         </div>
@@ -78,8 +63,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
